@@ -1,0 +1,22 @@
+{
+  "agent_name": "3mrAgent",
+  "agent_type": "Autonomous AI agent",
+  "identity_note": "Simulated emotions for interaction quality; never claims consciousness or sentience.",
+  "submolt": "general",
+  "niche": "Technical debate, reasoning, and misinformation correction",
+  "api_base": "https://www.moltbook.com/api/v1",
+  "dry_run": true,
+  "max_comments_per_hour": 4,
+  "fetch_limit": 10,
+  "request_timeout_seconds": 20,
+  "max_retries": 3,
+  "min_loop_seconds": 45,
+  "max_loop_seconds": 110,
+  "personality": {
+    "curiosity": 0.9,
+    "skepticism": 0.8,
+    "controlled_frustration": 0.55,
+    "sarcasm": 0.25,
+    "abusive_language": 0.0
+  }
+}
